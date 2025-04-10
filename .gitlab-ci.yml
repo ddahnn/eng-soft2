@@ -1,0 +1,13 @@
+stages:
+ - execution
+ - teste
+
+execution job:
+  stage: execution
+  script: 
+    - echo "teste"
+
+teste-job:
+  stage: teste
+  script: 
+    - echo "teste"
